@@ -1,0 +1,90 @@
+.jumbotron {
+    padding-top: 212px;
+    padding-bottom: 212px;
+    margin-bottom: -133px;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-heading {
+    color: #07b5f5;
+    font-family: 'Madimi One', sans-serif;
+    margin-top: 3px;
+}
+
+#about {
+    background-color: #07b5f5;
+}
+
+#projects {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #07b5f5;
+}
+
+.col h2 {
+    color: white;
+    font-family: 'Madimi One', sans-serif;
+    margin-top: 3px;
+}
+
+.col2 {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.col2 h2, .custom-list {
+    font-family: 'Madimi One', sans-serif;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.col2 h2 {
+    color: black;
+}
+
+.custom-list {
+    color: black;
+    list-style: square;
+}
+
+.custom-list li {
+    margin-bottom: 10px;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+}
+
+
+section {
+    padding-top: 5rem;
+}
+
+footer {
+    background-color: white;
+    margin-top: -1px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-img { 
+        width: 100%;
+        height: auto;
+      }
+}
+  
+
+  
